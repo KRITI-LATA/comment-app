@@ -113,7 +113,6 @@ class Comments extends Component {
                 placeholder="Your Comment"
                 className="comment-input"
                 value={commentInput}
-                rows="6"
                 onChange={this.onChangeComment}
               />
               <button type="submit" className="add-button">
@@ -127,9 +126,9 @@ class Comments extends Component {
             alt="comments"
           />
         </div>
-        <hr className="comment-line" />
+        <hr />
         <p className="comment-count">
-          <span className="total-comment">{commentList.length}</span>comments
+          <span className="total-comment">{commentList.length}</span> comments
         </p>
         <ul className="comment-container">{this.renderCommentsList()}</ul>
       </div>
