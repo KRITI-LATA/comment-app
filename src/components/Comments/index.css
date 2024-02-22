@@ -57,3 +57,32 @@
   margin-right: 40px;
   list-style-type: none;
 }
+
+@media screen and (min-width: 768px) {
+  .comment-input {
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+  }
+  .comment-card {
+    order: 2;
+  }
+  .para-text {
+    margin: 10px;
+    font-size: 13px;
+  }
+  .name-text {
+    margin: 10px;
+    width: 90vw;
+  }
+  .add-button {
+    margin: 10px;
+  }
+  .comment-image {
+    order: 1;
+    margin-right: 30px;
+  }
+  .comment-input {
+    width: 90vw;
+  }
+}
